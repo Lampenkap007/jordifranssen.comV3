@@ -33,21 +33,21 @@ const Navigation = () => {
                 <li className="nav-info-label">Email</li>
                 <li>
                   <p>Primair:</p>
-                  <a
+                  <span
                     onClick={() => window.open("mailto:info@jordifranssen.com")}
                   >
                     info@jordifranssen.com
-                  </a>
+                  </span>
                 </li>
                 <li>
                   <p>Studie:</p>
-                  <a
+                  <span
                     onClick={() =>
                       window.open("mailto:j.franssen@student.fontys.nl")
                     }
                   >
                     j.franssen@student.fontys.nl
-                  </a>
+                  </span>
                 </li>
               </ul>
               <ul className="nav-info">
@@ -95,13 +95,13 @@ const Navigation = () => {
               <ul className="nav-info">
                 <li className="nav-info-label">CV</li>
                 <li>
-                  <a
+                  <span
                     onClick={() => window.open("my-cv.pdf")}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Download CV (PDF)
-                  </a>
+                  </span>
                 </li>
               </ul>
             </div>
