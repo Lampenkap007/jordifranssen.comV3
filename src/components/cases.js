@@ -31,8 +31,13 @@ const Cases = () => {
       <div className="container-fluid">
         <div className="row">
           {caseStudies.map((caseItem) => (
-            <NavLink className="caseLink" to={"/" + caseItem.location} exact>
-              <div className="case" key={caseItem.id}>
+            <NavLink
+              className="caseLink"
+              to={"/" + caseItem.location}
+              key={caseItem.id}
+              exact
+            >
+              <div className="case">
                 <div className="case-details">
                   <span>{caseItem.subtitle}</span>
                   <h2>{caseItem.title}</h2>
