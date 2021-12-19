@@ -1,5 +1,6 @@
 import React from "react";
 import { Scrollbars } from "react-custom-scrollbars";
+import { ReactComponent as TimeLine } from "../assets/timeline.svg";
 
 const About = () => {
   return (
@@ -26,6 +27,7 @@ const About = () => {
               </p>
             </div>
           </div>
+          <TimeLine />
         </div>
       </div>
     </Scrollbars>

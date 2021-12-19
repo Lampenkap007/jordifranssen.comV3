@@ -6,12 +6,19 @@
     background: linear-gradient(
       0deg,
       rgba(0, 0, 36, 0) 0%,
-      rgba(255, 255, 255, 1) 50%,
       rgba(255, 255, 255, 1) 100%
     );
   }
   .container {
     padding-top: 15rem;
+    @include media("<=phone") {
+      padding-top: 10rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
+
     .image {
       height: 400px;
       width: 350px;
@@ -24,6 +31,13 @@
         0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
         0 22.3px 17.9px rgba(0, 0, 0, 0.072),
         0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+      @include media("<=phone") {
+        height: 200px;
+        width: 150px;
+        border-radius: 25px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+      }
     }
 
     .text-left {
@@ -32,12 +46,34 @@
       justify-content: flex-end;
 
       div {
+        @include media("<=phone") {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
         p {
           margin-right: 32px;
           margin-top: 0;
           width: 600px;
           line-height: 1.8rem;
+          @include media("<=phone") {
+            margin-right: 0px;
+            width: 80%;
+            line-height: 1.5rem;
+          }
         }
+      }
+    }
+    svg {
+      margin-top: 100px;
+      margin-bottom: 100px;
+
+      width: 96%;
+      margin-left: 32px;
+      margin-right: 32px;
+
+      @include media("<=phone") {
+        display: none;
       }
     }
   }

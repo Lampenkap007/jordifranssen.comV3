@@ -4,8 +4,6 @@ import { gsap } from "gsap";
 import "./styles/App.scss";
 import Header from "./components/header";
 import Navigation from "./components/navigation";
-
-import CaseStudies from "./pages/caseStudies";
 import Stage from "./pages/stage";
 import Projects from "./pages/projects";
 import About from "./pages/about";
@@ -13,7 +11,6 @@ import Home from "./pages/home";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
-  { path: "/case-studies", name: "caseStudies", Component: CaseStudies },
   { path: "/stage", name: "stage", Component: Stage },
   { path: "/projects", name: "projects", Component: Projects },
   { path: "/about-me", name: "about", Component: About },
