@@ -1,0 +1,74 @@
+.page {
+  .container {
+    .projects {
+      padding-left: 32px;
+      .project {
+        margin-top: 75px;
+        padding-bottom: 150px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        @include media("<=phone") {
+          flex-direction: column;
+          padding-bottom: 50px;
+        }
+
+        .image {
+          background-image: url("../../../assets/project-min.png");
+          margin-left: 0px;
+          height: 300px;
+          width: 400px;
+          @include media("<=phone") {
+            display: none;
+          }
+        }
+        .text {
+          width: 30vw;
+
+          @include media("<=phone") {
+            width: 80%;
+          }
+          .imageMobile {
+            background-image: url("../../../assets/project-min.png");
+            height: 150px;
+            width: 200px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 25px;
+            margin-left: 0px;
+            margin-bottom: 50px;
+            display: none;
+            @include media("<=phone") {
+              display: block;
+            }
+          }
+          .projectText {
+            margin-top: 25px;
+          }
+          span {
+            position: relative;
+            &:after {
+              content: "";
+              position: absolute;
+              width: 0;
+              height: 2px;
+              display: block;
+              margin-top: 5px;
+              right: 0;
+              background: $black;
+              transition: 0.4s ease;
+            }
+            &:hover {
+              cursor: pointer;
+              &:after {
+                width: 100%;
+                left: 0;
+                background: $black;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

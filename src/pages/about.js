@@ -13,17 +13,7 @@ const About = () => {
             <div>
               <h1>Over mij</h1>
               <p>
-                Mijn naam is Jordi, ik ben 21 jaar en woon in Deurne. Momenteel
-                studeer ik HBO ICT&Media bij Fontys in Eindhoven. Met behulp van
-                deze opleiding kom ik aan de nodige skillset om later
-                professioneel webdesigner en webdeveloper te worden. Terwijl ik
-                hard bezig ben om mijn diploma te halen, help ik vast kennissen
-                en andere connecties aan een eventuele website. Buiten
-                kantooruren ben ik vaak als winkelmedewerker in de Jumbo te
-                vinden. Daarnaast doe ik één avond per week vrijwilligerswerk
-                als groepsleiding bij jeugdvereniging Jong Nederland Zeilberg.
-                In de weekenden ben ik altijd in voor een feestje of een
-                gezellige borrel.
+              Mijn naam is Jordi, ik ben een creatieve student en studeer ICT&Media bij Fontys Hogescholen in Eindhoven. Moderne, gebruiksvriendelijke websites ontwerpen én bouwen vind ik erg gaaf om te doen. Daarom specialiseer ik me binnen mijn opleiding in webdesign en front-end development. In het voorjaar van 2024 ben ik klaar met mijn studie. Daarna ben ik van plan om aan de slag te gaan als webdesigner en webdeveloper.
               </p>
             </div>
           </div>

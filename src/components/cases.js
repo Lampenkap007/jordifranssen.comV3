@@ -18,7 +18,7 @@ const caseStudies = [
   },
   {
     id: 3,
-    subtitle: "Lorem Ipsum",
+    subtitle: "SOCIAL",
     title: "Mijn meest recente project",
     img: "project-min",
     location: "projects",
